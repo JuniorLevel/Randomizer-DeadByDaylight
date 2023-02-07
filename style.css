@@ -1,0 +1,138 @@
+#root {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:focus {
+	outline: none;
+}
+
+*::-webkit-input-placeholder {
+	color: #c0c0c0;
+	opacity: 1;
+}
+
+*:-moz-placeholder {
+	color: #c0c0c0;
+	opacity: 1;
+}
+
+*::-moz-placeholder {
+	color: #c0c0c0;
+	opacity: 1;
+}
+
+*:-ms-input-placeholder {
+	color: #c0c0c0;
+	opacity: 1;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 100px;
+}
+
+::-webkit-scrollbar:hover {
+	background-color: rgba(0, 0, 0, 0.09);
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 100px;
+	background-clip: padding-box;
+	border: 2px solid rgba(0, 0, 0, 0);
+	min-height: 10px;
+}
+
+::-webkit-scrollbar-thumb:vertical:active {
+	background: rgba(0, 0, 0, 0.61);
+	border-radius: 100px;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	color: #000;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+	color: #000;
+}
+
+html,
+body {
+	height: 100vh;
+}
+
+/* Начало стилей */
+
+h1 {
+	font-size: 56px;
+	color: #ffffff;
+}
+
+.paragraph {
+	margin: 50px 0;
+	font-size: 46px;
+	color: rgb(172, 3, 172);
+}
+
+.preview-container__btn-inner {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.b-1 {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: green;
+	display: inline-block;
+	padding: 14px 30px;
+	border: 1px solid;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin: 0 15px 15px 0;
+	outline: none;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+}
+
+.b-1:hover {
+	transition: all 0.5s ease-in;
+	background-image: linear-gradient(90deg, #d1300c, #9a3059);
+}
+
+.bg-video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
